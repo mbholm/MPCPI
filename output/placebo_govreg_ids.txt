@@ -1,0 +1,5 @@
+1	044 Water supply and miscellaneous services relating to the dwelling	0
+2	061 Medical products, appliances and equipment	0
+3	062 Out-patient services	0
+4	073 Transport services	0
+5	124 Social protection	0

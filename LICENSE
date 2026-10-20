@@ -1,0 +1,56 @@
+This replication package is distributed under two licenses.
+
+1. CODE (everything under code/, and run_all.R, run_all.sh, run_all.ps1): MIT License
+
+   Copyright (c) 2026 Martin B. Holm and Simon Seland
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+   The helper functions code/matlab/ciplot.m, code/matlab/rgb.m and
+   code/matlab/wprctile.m are third-party files from the MATLAB Central File
+   Exchange, redistributed under the File Exchange's BSD 2-Clause license;
+   authorship is given in each file.
+
+2. DATA AND DOCUMENTATION created by the authors (README.md, inputs/govreg.xlsx,
+   inputs/consumption_category.xlsx, inputs/MP_Shocks.xlsx, data/MP_Shocks.xlsx,
+   inputs/firm_statistics.csv, output/, figures/): Creative Commons Attribution
+   4.0 International (CC BY 4.0), https://creativecommons.org/licenses/by/4.0/
+
+   You may share and adapt these files for any purpose, provided you give
+   appropriate credit, for example by citing the paper:
+
+   Holm, M. B. and S. Seland (2026), "Monetary Transmission to Prices:
+   Disaggregated Evidence from Norway", working paper, University of Oslo.
+
+3. THIRD-PARTY DATA are redistributed under their own terms, which permit
+   redistribution with attribution:
+
+   - Statistics Norway series (inputs/CPI_*.xlsx, inputs/kpi_*.xlsx, data/kpi_*.xlsx,
+     data/09175_quarterly.xlsx): Norwegian Licence for Open Government Data (NLOD),
+     https://data.norge.no/nlod/en/2.0. Source: Statistics Norway.
+   - Norges Bank series (data/policy_rate_daily.csv, data/i44.csv, data/usdnok.csv):
+     Norwegian Licence for Open Government Data (NLOD). Source: Norges Bank.
+   - World Input-Output Database, 2012 national table for Norway
+     (inputs/NOR_NIOT_nov16.xlsx): CC BY 4.0. Source: Timmer et al. (2015).
+   - CPA-COICOP bridge matrix for Norway (inputs/CPA_COICOP_correspondence.xlsx):
+     CC BY 4.0. Source: Cai and Vandyck (2020), Data in Brief 30, 105395.
+
+   inputs/firm_statistics.csv contains sector-level sums computed by the authors
+   from confidential firm accounts on the Statistics Norway microdata server and
+   released under its disclosure rules; the underlying microdata are not included.

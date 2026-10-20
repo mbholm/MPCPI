@@ -1,0 +1,3 @@
+# Sentinel file marking the root of the replication package.
+# Used by code/data_prep/config.R to locate the project root regardless of
+# the current working directory. Do not delete.
